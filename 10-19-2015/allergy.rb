@@ -10,12 +10,14 @@
 class Allergy
   def translate(num)
     allergies = []
+
     ALLERGENS.each do |item, score|
       if num - score >= 0
         allergies << item.to_s
         num -= score
       end
     end
+    
     allergies
   end
 end

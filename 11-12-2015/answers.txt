@@ -1,0 +1,13 @@
+12) B
+13) B
+14) c, d
+ramon's car: 1991 - 1993
+taylor's car: 1992 - 1995
+sue's car: 1991 - 1993
+
+sue grad: 1993, car in 1992
+taylor grad 1994, car in 1995
+ramon grad 1993, car in 1991, 1992, 1993, 1994, 1995
+
+15) 
+16)

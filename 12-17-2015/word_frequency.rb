@@ -2,7 +2,8 @@ class WordFrequency
   def list_frequencies(words)
     freq = Hash.new(0)
     words.each { |word| freq[word] += 1 }
-    top_5(sort_by_descending_value(freq))
+    sorted = sort_by_descending_value(freq)
+    top_5(sorted)
   end
 
   def sort_by_descending_value(frequencies)
